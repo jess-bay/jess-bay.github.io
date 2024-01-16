@@ -2,13 +2,50 @@ body {
   min-height: 100vh;
   background: rgb(200, 200, 249);
   margin: 0;
+  font-family: Calibri;
 }
 
 .header {
   background: purple;
   margin: 0;
+  padding-right: 30px;
+  width: 100%;
+}
+
+.header-th {
+  margin: 0;
+  top: 0;
   padding: 0;
   width: 100%;
+  color: white;
+  display: inline-block;
+  background: purple;
+}
+
+.header-th h1 {
+  padding: 0;
+  margin-left: 30px;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.h2-th,
+.h3-th {
+  margin-left: 30px;
+  text-decoration: underline;
+}
+
+.p-th {
+  margin: 15px 30px 15px 0;
+}
+
+.navbar-th ul li a {
+  color: black;
+  background: rgb(200, 200, 249);
+  padding: 0 10px 0 10px;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .logo {
@@ -41,9 +78,10 @@ nav ul li a {
   color: white;
   text-align: center;
   bottom: 0;
-  margin: 0;
+  margin: 0 0 -20px 0;
   padding: 15px;
   width: 100%;
+  height: 100px;
   position: absolute;
 }
 
@@ -80,4 +118,15 @@ td {
 p {
   padding-left: 30px;
   font-size: 1.2rem;
+}
+
+@media (max-width: 425px) {
+  nav ul li {
+    margin-bottom: 30px;
+  }
+  .logo {
+    display: block;
+    margin-top: 0;
+    text-align: center;
+  }
 }
