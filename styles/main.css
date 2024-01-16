@@ -4,15 +4,18 @@ body {
   margin: 0;
 }
 
-header {
+.header {
   background: purple;
-  color: white;
-  padding: 5px 5px 5px 30px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .logo {
   display: inline-block;
   margin-top: 15px;
+  color: white;
+  padding: 5px 5px 5px 30px;
 }
 
 nav ul {
@@ -52,4 +55,29 @@ nav ul li a {
 
 .my-blog-heading {
   color: red;
+}
+
+.navbar {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 3px ridge black;
+}
+
+table {
+  margin-left: 30px;
+}
+
+th,
+td {
+  background-color: rgb(242, 231, 247);
+  border-style: ridge;
+}
+
+p {
+  padding-left: 30px;
+  font-size: 1.2rem;
 }
