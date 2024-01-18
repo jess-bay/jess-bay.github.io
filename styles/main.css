@@ -83,15 +83,19 @@ td {
 
 table {
   margin-left: 30px;
+  margin-right: 30px;
   margin-bottom: 20px;
-  max-width: 60%;
+  max-width: 100%;
+  border-collapse: collapse;
 }
 
 th,
 td {
   background-color: rgb(242, 231, 247);
   border-style: ridge;
-  width: auto;
+  border-width: 3px;
+  border-color: black;
+  padding: 8px;
   text-align: left;
 }
 
@@ -100,17 +104,6 @@ p {
   padding-right: 30px;
   font-size: 1.2rem;
   margin-top: 5px;
-}
-
-@media (max-width: 425px) {
-  nav ul li {
-    margin-bottom: 20px;
-  }
-  .logo {
-    display: block;
-    margin-top: 0;
-    text-align: center;
-  }
 }
 
 .h2,
@@ -128,4 +121,53 @@ h3 {
 ul {
   font-size: 1.2rem;
   margin: 5px 0 10px 30px;
+}
+
+#margin-border-padding img {
+  margin-left: 30px;
+}
+
+img,
+picture,
+video {
+  max-width: 100%;
+}
+
+@media (max-width: 425px) {
+  nav ul li {
+    margin-bottom: 20px;
+  }
+  .logo {
+    display: block;
+    margin-top: 0;
+    text-align: center;
+  }
+  td,
+  th {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  th,
+  td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  th:first-child,
+  td:first-child {
+    border-top: 3px ridge black;
+  }
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 425px) and (max-width: 1024px) {
+  nav ul li {
+    margin-bottom: 20px;
+  }
 }
