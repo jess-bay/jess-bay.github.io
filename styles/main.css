@@ -82,7 +82,7 @@ td {
 table {
   margin-left: 30px;
   margin-bottom: 20px;
-  max-width: 70%;
+  max-width: 60%;
 }
 
 th,
@@ -90,11 +90,13 @@ td {
   background-color: rgb(242, 231, 247);
   border-style: ridge;
   width: auto;
+  text-align: left;
 }
 
 p {
   padding-left: 30px;
-  font-size: 1rem;
+  padding-right: 30px;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 425px) {
