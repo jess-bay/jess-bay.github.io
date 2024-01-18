@@ -99,6 +99,7 @@ p {
   padding-left: 30px;
   padding-right: 30px;
   font-size: 1.2rem;
+  margin-top: 5px;
 }
 
 @media (max-width: 425px) {
@@ -116,4 +117,15 @@ p {
 .h3 {
   text-decoration: underline;
   margin-left: 30px;
+}
+
+h3 {
+  margin-left: 30px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+ul {
+  font-size: 1.2rem;
+  margin: 5px 0 10px 30px;
 }
