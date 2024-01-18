@@ -133,6 +133,12 @@ video {
   max-width: 100%;
 }
 
+.identity-paragraph,
+.learning-paragraph {
+  text-align: center;
+  margin: 0 15% 0 15%;
+}
+
 @media (max-width: 425px) {
   nav ul li {
     margin-bottom: 20px;
