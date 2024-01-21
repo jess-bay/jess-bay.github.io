@@ -134,7 +134,8 @@ video {
 }
 
 .identity-paragraph,
-.learning-paragraph {
+.learning-paragraph,
+.eq-paragraph {
   text-align: center;
   margin: 0 15% 0 15%;
 }
