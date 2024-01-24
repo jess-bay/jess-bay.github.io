@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  margin: 0;
+  margin: 0 0 15px 0;
   padding: 0;
   width: 100%;
   color: white;
@@ -133,11 +133,35 @@ video {
   max-width: 100%;
 }
 
+.welcome-paragraph,
+.th-paragraph,
+.margin-paragraph,
 .identity-paragraph,
 .learning-paragraph,
-.eq-paragraph {
-  text-align: center;
-  margin: 0 15% 0 15%;
+.eq-paragraph,
+.javascript-dom-paragraph {
+  text-align: left;
+  margin: 0 10% 3% 10%;
+}
+
+#control-flow-pic,
+#loops-pic,
+#human-body-pic,
+#arrays-pic,
+#objects-pic {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 0 0 2%;
+  padding: 0;
+  border-style: ridge;
+  border-color: rgb(250, 203, 211);
+  border-width: 10px;
+}
+
+.javascript-dom-paragraph h2 {
+  margin-top: 40px;
+  text-decoration: underline;
 }
 
 @media (max-width: 425px) {
