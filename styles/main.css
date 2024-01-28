@@ -146,7 +146,8 @@ video {
 .learning-paragraph,
 .eq-paragraph,
 .javascript-dom-paragraph,
-.mindset-paragraph {
+.mindset-paragraph,
+.twtw-paragraph {
   text-align: left;
   margin: 0 10% 3% 10%;
 }
