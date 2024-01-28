@@ -7,6 +7,12 @@ body {
   font-family: Calibri;
 }
 
+ol {
+  font-family: Calibri;
+  font-size: 1.2rem;
+  margin-left: 25px;
+}
+
 .header {
   margin: 0 0 15px 0;
   padding: 0;
@@ -139,7 +145,8 @@ video {
 .identity-paragraph,
 .learning-paragraph,
 .eq-paragraph,
-.javascript-dom-paragraph {
+.javascript-dom-paragraph,
+.mindset-paragraph {
   text-align: left;
   margin: 0 10% 3% 10%;
 }
