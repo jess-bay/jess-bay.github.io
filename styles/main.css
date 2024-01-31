@@ -168,7 +168,8 @@ video {
   border-width: 10px;
 }
 
-.javascript-dom-paragraph h2 {
+.javascript-dom-paragraph h2,
+.problem-paragraph h2 {
   margin-top: 40px;
   text-decoration: underline;
 }
