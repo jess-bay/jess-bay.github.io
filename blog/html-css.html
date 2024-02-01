@@ -3,11 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="../styles/main.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
     <title>Margin, Border or Padding?</title>
   </head>
   <body>
@@ -42,129 +38,135 @@
             <a href="../blog/problem-solving.html">Problem Solving</a>
           </li>
           <li>
-            <a href="../blog/foundations-reflection.html">Foundations Reflection</a>
+            <a href="../blog/foundations-reflection.html"
+              >Foundations Reflection</a
+            >
           </li>
         </ul>
       </nav>
     </div>
     <div class="margin-paragraph">
-    <h3>Well, what is it? Margin, Border or Padding?</h3>
-    <p>
-      Whether you have experience in web development or are a beginner, it’s
-      important to understand the differences between margin, border and
-      padding. It can make a huge difference to the layout of your website, with
-      just simple adjustments to each of these properties.
-    </p>
-    <h3>What is a Border?</h3>
-    <p>
-      The border defines a - get this- border around the element’s padding area
-      (see below). It consists of three sub-properties ‘border-style,
-      border-width, border-color’. The border acts as a separator for the
-      padding and the margin.
-    </p>
-    <div class="table-container">
-      <table>
-        <tr>
-          <td><img src="../pics-for-blog/code-border.jpeg"> </td>
-          <td><img src="../pics-for-blog/site-border.jpeg"> </td>
-        </tr>
-      </table>
-   
-    <p class="analysis">You can see that I have added all three characteristics mentioned above: 'border-style, border-color and border-width'. I have chosen a dotted border, a 10 pixel width and the black colour. You can see how it envelopes the element. The padding sits inside of this border and the margin sits outside this border. Please see below for what these mean.</p>
+      <h3>Well, what is it? Margin, Border or Padding?</h3>
+      <p>
+        Whether you have experience in web development or are a beginner, it’s
+        important to understand the differences between margin, border and
+        padding. It can make a huge difference to the layout of your website,
+        with just simple adjustments to each of these properties.
+      </p>
+      <h3>What is a Border?</h3>
+      <p>
+        The border defines a - get this- border around the element’s padding
+        area (see below). It consists of three sub-properties ‘border-style,
+        border-width, border-color’. The border acts as a separator for the
+        padding and the margin.
+      </p>
+      <div class="table-container">
+        <table>
+          <tr>
+            <td><img src="../pics-for-blog/code-border.jpeg" /></td>
+            <td><img src="../pics-for-blog/site-border.jpeg" /></td>
+          </tr>
+        </table>
+      </div>
+      <p>
+        You can see that I have added all three characteristics mentioned above:
+        'border-style, border-color and border-width'. I have chosen a dotted
+        border, a 10 pixel width and the black colour. You can see how it
+        envelopes the element. The padding sits inside of this border and the
+        margin sits outside this border. Please see below for what these mean.
+      </p>
+      <h3>What is a Margin?</h3>
+      <p>
+        The margin defines the space outside of an element. It creates a space
+        between the element’s border and other elements. The margin doesn’t
+        necessarily have a colour, as it determines the space between different
+        elements.
+      </p>
+      <div class="table-container">
+        <table>
+          <tr>
+            <td><img src="../pics-for-blog/code-m-bottom-10.jpeg" /></td>
+            <td><img src="../pics-for-blog/site-margin-small.jpeg" /></td>
+          </tr>
+        </table>
+      </div>
+      <p>
+        You can see above that I have made my margin for these pictures to be 10
+        pixels. Note that the margin has no set colour, so it just shows up as
+        the darker purple colour.
+      </p>
+      <div class="table-container">
+        <table>
+          <tr>
+            <td><img src="../pics-for-blog/code-margin-more.jpeg" /></td>
+            <td><img src="../pics-for-blog/site-margin-more.jpeg" /></td>
+          </tr>
+        </table>
+      </div>
+      <p>
+        You can see that I've changed the margin to be 50 pixels at the bottom,
+        so it has increased the size of the dark purple colour underneath our
+        headings here.
+      </p>
+      <h3>What is Padding?</h3>
+      <p>
+        Padding, on the other hand, defines the space between the element’s
+        contents and its border. This is the internal space of the element.
+      </p>
+      <div class="table-container">
+        <table>
+          <tr>
+            <td><img src="../pics-for-blog/code-padding-small.jpeg" /></td>
+            <td><img src="../pics-for-blog/site-padding-small.jpeg" /></td>
+          </tr>
+        </table>
+      </div>
+      <p>
+        You can see above that I have made my left and right padding 10 pixels
+        for each of the headings. This increases the space on the inside of the
+        element, so it shows up to us with the background colour of the element
+        (lighter purple)
+      </p>
+      <div class="table-container">
+        <table>
+          <tr>
+            <td><img src="../pics-for-blog/code-padding-more.jpeg" /></td>
+            <td><img src="../pics-for-blog/site-padding-more.jpeg" /></td>
+          </tr>
+        </table>
+      </div>
+      <p>
+        You can see that I have increased the padding here to 30 pixels, which
+        results in our headings boxes stretching a bit. Since it's the space
+        inside the element stretching due to the padding, the lighter purple
+        colour increases in size.
+      </p>
+      <h3>How do they come together?</h3>
+      <p>
+        Well, since they are not one and the same, they can all work together.
+        Below is an example from the Chrome Developer Tools, to show the
+        relationship between the three of them:
+      </p>
+      <div id="margin-border-padding">
+        <img src="../pics-for-blog/border-padding-margin.jpeg" />
+      </div>
+      <p>
+        In some ways, it may help to think of the border separating both the
+        padding and the margin. The margin ensures space outside of the element
+        and padding ensures space on the inside of the element, before the
+        border.
+      </p>
+    </div>
 
-    <h3>What is a Margin?</h3>
-    <p>
-      The margin defines the space outside of an element. It creates a space
-      between the element’s border and other elements. The margin doesn’t
-      necessarily have a colour, as it determines the space between different
-      elements.
-    </p>
-    <div class="table-container">
-      <table>
-        <tr>
-          <td><img src="../pics-for-blog/code-m-bottom-10.jpeg" /></td>
-          <td><img src="../pics-for-blog/site-margin-small.jpeg" /></td>
-        </tr>
-      </table>
+    <div id="footer">
+      Thank you for viewing
+      <div>
+        <img
+          class="smiley-face"
+          src="https://dealersupport.co.uk/wp-content/uploads/2023/08/iStock-1124532572.jpg"
+          alt="smiley face"
+        />
+      </div>
     </div>
-    <p class="analysis">
-      You can see above that I have made my margin for these pictures to be 10
-      pixels. Note that the margin has no set colour, so it just shows up as the
-      darker purple colour.
-    </p>
-    <div class="table-container">
-      <table>
-        <tr>
-          <td><img src="../pics-for-blog/code-margin-more.jpeg" /></td>
-          <td><img src="../pics-for-blog/site-margin-more.jpeg" /></td>
-        </tr>
-      </table>
-    </div>
-    <p class="analysis">
-      You can see that I've changed the margin to be 50 pixels at the bottom, so
-      it has increased the size of the dark purple colour underneath our
-      headings here.
-    </p>
-
-    <h3>What is Padding?</h3>
-    <p>
-      Padding, on the other hand, defines the space between the element’s
-      contents and its border. This is the internal space of the element.
-    </p>
-    <div class="table-container">
-      <table>
-        <tr>
-          <td><img src="../pics-for-blog/code-padding-small.jpeg" /></td>
-          <td><img src="../pics-for-blog/site-padding-small.jpeg" /></td>
-        </tr>
-      </table>
-    </div>
-    <p class="analysis">
-      You can see above that I have made my left and right padding 10 pixels for
-      each of the headings. This increases the space on the inside of the
-      element, so it shows up to us with the background colour of the element
-      (lighter purple)
-    </p>
-
-    <div class="table-container">
-      <table>
-        <tr>
-          <td><img src="../pics-for-blog/code-padding-more.jpeg" /></td>
-          <td><img src="../pics-for-blog/site-padding-more.jpeg" /></td>
-        </tr>
-      </table>
-    </div>
-    <p class="analysis">
-      You can see that I have increased the padding here to 30 pixels, which
-      results in our headings boxes stretching a bit. Since it's the space
-      inside the element stretching due to the padding, the lighter purple
-      colour increases in size.
-    </p>
-
-    <h3>How do they come together?</h3>
-    <p>
-      Well, since they are not one and the same, they can all work together.
-      Below is an example from the Chrome Developer Tools, to show the
-      relationship between the three of them:
-    </p>
-    <div id="margin-border-padding">
-      <img src="../pics-for-blog/border-padding-margin.jpeg"/>
-    </div>
-    <p>
-      In some ways, it may help to think of the border separating both the
-      padding and the margin. The margin ensures space outside of the element
-      and padding ensures space on the inside of the element, before the border.
-    </p>
-  </div>
-  <div id="footer">
-    Thank you for viewing
-    <div>
-      <img
-        class="smiley-face"
-        src="https://dealersupport.co.uk/wp-content/uploads/2023/08/iStock-1124532572.jpg"
-        alt="smiley face"
-      />
-    </div>
-  </div>
   </body>
 </html>
