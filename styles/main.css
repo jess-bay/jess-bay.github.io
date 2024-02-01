@@ -6,7 +6,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: rgb(200, 200, 249);
+  background: url('https://d29fhpw069ctt2.cloudfront.net/photo/52202/preview/npreview_1280x1280.jpg');
+  background-size: cover;
   margin: 0;
   font-family: Calibri;
 }
@@ -46,7 +47,7 @@ nav ul {
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  background-color: rgb(200, 200, 249);
+  background-color: rgb(226, 200, 249);
   border-radius: 5px;
   padding-left: 10px;
   padding-right: 10px;
@@ -159,6 +160,9 @@ video {
 .reflection-paragraph {
   text-align: left;
   margin: 0 10% 3% 10%;
+  background-color: rgb(226, 200, 249);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 #control-flow-pic,
@@ -185,6 +189,10 @@ video {
 .problem-code {
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.reflection-paragraph h2 {
+  text-decoration: underline;
 }
 
 @media (max-width: 425px) {
