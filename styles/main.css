@@ -148,7 +148,8 @@ video {
 .javascript-dom-paragraph,
 .mindset-paragraph,
 .twtw-paragraph,
-.problem-paragraph {
+.problem-paragraph,
+.reflection-paragraph {
   text-align: left;
   margin: 0 10% 3% 10%;
 }
