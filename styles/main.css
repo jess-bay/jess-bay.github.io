@@ -15,7 +15,7 @@ ol {
 
 .header {
   margin: 0 0 15px 0;
-  padding: 0;
+  padding: 0 0 15px 0;
   width: 100%;
   color: white;
   display: inline-block;
@@ -25,10 +25,13 @@ ol {
 }
 
 .logo {
-  display: inline-block;
-  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: white;
-  padding: 5px 5px 5px 30px;
+  padding: 5px 5px 5px 5px;
 }
 
 nav ul {
