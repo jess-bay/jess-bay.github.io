@@ -6,7 +6,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: url('https://d29fhpw069ctt2.cloudfront.net/photo/52202/preview/npreview_1280x1280.jpg');
+  /* background: url('https://d29fhpw069ctt2.cloudfront.net/photo/52202/preview/npreview_1280x1280.jpg'); */
+  background-image: linear-gradient(rgb(244, 123, 244), rgb(221, 135, 150));
   background-size: cover;
   margin: 0;
   font-family: Calibri;
